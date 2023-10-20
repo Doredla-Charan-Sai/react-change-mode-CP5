@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-cont {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark-cont {
+  background-color: black;
+  background-size: cover;
+}
+.light-cont {
+  background-color: white;
+  background-size: cover;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 40px;
+}
+.main-head {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.light-head {
+  color: white;
+}
+.dark-head {
+  color: black;
+}
+.btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+  color: black;
+}
+.btn-dark {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
